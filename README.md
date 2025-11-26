@@ -3,6 +3,8 @@
 
 <h1 align="center"> Clinical Note Information Extractor 🔎</h1>
 
+<img src="screenshots/home.png" alt="Home" width="1280"/>
+
 [![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://clinical-note-extractor.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Groq](https://img.shields.io/badge/Powered%20By-GroqAI-black?logo=groq)
@@ -27,7 +29,6 @@
 <div align="center">
 Convert unstructured EHR-style clinical notes (Epic, Accuro, Cerner, Allscripts, OSCAR, MedAccess) into structured JSON using LLMs.
 
-<img src="screenshots/home.png" alt="Home" width="1280"/>
 </div>
 
 ---
