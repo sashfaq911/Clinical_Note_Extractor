@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="screenshots/home.png" alt="Home" width="1280"/>
 
 <h1 align="center"> Clinical Note Information Extractor 🔎</h1>
 
@@ -28,6 +27,8 @@
 
 <div align="center">
 Convert unstructured EHR-style clinical notes (Epic, Accuro, Cerner, Allscripts, OSCAR, MedAccess) into structured JSON using LLMs.
+
+<img src="screenshots/home.png" alt="Home" width="1280"/>
 
 </div>
 
