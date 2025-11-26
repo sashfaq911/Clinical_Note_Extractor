@@ -3,7 +3,7 @@
 
 <h1 align="center"> Clinical Note Information Extractor 🔎</h1>
 
-[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://your-streamlit-app-link-here)
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://clinical-note-extractor.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Groq](https://img.shields.io/badge/Powered%20By-GroqAI-black?logo=groq)
 ![Model](https://img.shields.io/badge/Model-Llama%203.3%2070B-yellow)
@@ -18,7 +18,7 @@
   <a href="#features">Features</a> •
   <a href="#live-demo">Live Demo</a> •
   <a href="#app-usage">App Usage</a> •
-  <a href="#teck-stack">Tech Stack</a> •
+  <a href="#tech-stack">Tech Stack</a> •
   <a href="#installation">Installation</a> •
   <a href="#acknowledgements">Acknowledgements</a> •
   <a href="#license">License</a>
@@ -86,7 +86,7 @@ Prompt is optimized for SOAP notes and common EHR section headers.
 ## 🌐 Live Demo <a name="live-demo"></a>
 
 The app is deployed on **Streamlit Cloud** and accessible here:  
-👉 **[Clinical Note Extractor](https://huggingface.co/spaces/sashfaq911/Car_Damage_Detector)**
+👉 **[Clinical Note Extractor](https://clinical-note-extractor.streamlit.app/)**
 
 
 
