@@ -1,9 +1,9 @@
 <div align="center">
 
+<img src="screenshots/home.png" alt="Home" width="1280"/>
 
 <h1 align="center"> Clinical Note Information Extractor 🔎</h1>
 
-<img src="screenshots/home.png" alt="Home" width="1280"/>
 
 [![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://clinical-note-extractor.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
