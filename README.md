@@ -1,7 +1,7 @@
 <div align="center">
 
 
-<h1 align="center"> 🔍 Clinical Note Information Extractor 🔎</h1>
+<h1 align="center"> Clinical Note Information Extractor 🔎</h1>
 
 [![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://your-streamlit-app-link-here)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
@@ -9,9 +9,9 @@
 ![Model](https://img.shields.io/badge/Model-Llama%203.3%2070B-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-</div>
 
 </div>
+
 
 <p align="center">
   <a href="#overview">Overview</a> •
@@ -24,26 +24,13 @@
   <a href="#license">License</a>
 </p>
 
+<div align="center">
 Convert unstructured EHR-style clinical notes (Epic, Accuro, Cerner, Allscripts, OSCAR, MedAccess) into structured JSON using LLMs.
 
-### 📸 Screenshots
+<img src="screenshots/home.png" alt="Home" width="1280"/>
+</div>
 
-
-#### Home Page
-![](screenshots/home.png)
-
-#### Overview Tab
-![](screenshots/overview.png)
-
-#### Medications Tab
-![](screenshots/meds.png)
-
-#### Tests & Imaging Tab
-![](screenshots/tests.png)
-
-#### JSON Output Tab
-![](screenshots/json.png)
-
+---
 
 ## 🧠 Overivew <a name="overview"></a>
 
@@ -101,7 +88,9 @@ Prompt is optimized for SOAP notes and common EHR section headers.
 The app is deployed on **Streamlit Cloud** and accessible here:  
 👉 **[Clinical Note Extractor](https://huggingface.co/spaces/sashfaq911/Car_Damage_Detector)**
 
-## 📋 App Usage
+
+
+## 📋 App Usage <a name="app-usage"></a>
 
 1. Launch the Streamlit application using the **Live Demo** link or by running it locally.  
 2. Paste a **de-identified** clinical note into the text area.  
@@ -116,7 +105,23 @@ The app is deployed on **Streamlit Cloud** and accessible here:
    - **Download CSV**
    - Or copy the JSON directly from the UI
 
-Example input note you can test with:
+### 📸 Screenshots
+Here are a few screenshots of what the app looks like after the Extract button has been cliked.
+
+#### Overview Tab
+![](screenshots/overview.png)
+
+#### Medications Tab
+![](screenshots/meds.png)
+
+#### Tests & Imaging Tab
+![](screenshots/tests.png)
+
+#### JSON Output Tab
+![](screenshots/json.png)
+
+
+#### Example input note you can test with:
 ```sql
 45-year-old female presenting with cough, fever, and SOB...
 Start Azithromycin 500 mg PO day 1, then 250 mg daily × 4 days...
@@ -180,8 +185,8 @@ CBC and Chest X-ray ordered...
 
 
 
-## 🛠️ Tech Stack
-This project demonstrates practical, job-ready skills across **AI engineering**, **healthcare NLP**, and **full-stack data application development**.
+## 🛠️ Tech Stack <a name="tech-stack"></a>
+This project demonstrates practical across **AI engineering**, **healthcare NLP**, and **full-stack data application development**.
 
 **Core Technologies**
 - **Python 3.10+**
