@@ -160,7 +160,7 @@ CBC and Chest X-ray ordered...
 }
 ```
 
-## 🧰 Architecture Diagram
+## ⚙️ Architecture Diagram
 
                     ┌─────────────────────────┐
                     │      Streamlit UI       │
@@ -251,11 +251,12 @@ clinical-note-extractor/
     ```
 
 4. **Add your environment variables**
-    ```ini
+    Create a file named **`.env`** in the project root and add your Groq API key:
+   ```env
     GROQ_API_KEY=your_key_here
     ```
 
-5. **Run the app**
+6. **Run the app**
     ```bash
     streamlit run app.py
     ```
